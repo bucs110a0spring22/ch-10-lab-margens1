@@ -8,20 +8,17 @@
 Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ < The user must evade the enemies to stay alive. The enemies wiggle around randomly. Once the user loses they are sent to a game over screen >
 #### Unique Feature
- < Describe the unique feature you added >
+ < I added a background to the game by importing an image and setting it to a certain size and location >
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: < 1 >
 
-Grace days remaining: < # >/5
+Grace days remaining: < 3 >/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
 
 ## REFERENCES:
- < List any outside resources used >
-
+pygame
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >

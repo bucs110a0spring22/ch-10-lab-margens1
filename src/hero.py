@@ -2,7 +2,13 @@ import pygame
 import random
 #model
 class Hero(pygame.sprite.Sprite):
+    
     def __init__(self, name, x, y, img_file):
+      '''
+      initiates the hero class
+      args: self, name, x coordinate, y coordinate, image file
+      return: initiated version of the class Hero
+      '''
         #initialize all the Sprite functionality
         pygame.sprite.Sprite.__init__(self)
 
@@ -32,6 +38,11 @@ class Hero(pygame.sprite.Sprite):
         self.rect.x += self.speed
 
     def fight(self, opponent):
+      '''
+      removes health from the hero when the attack is successful
+      args: self, opponent
+      return: true or false based of the success of the attack
+      '''
         if(random.randrange(3)):
             self.health -= 1
             print("attack failed. Remaining Health: ", self.health)
